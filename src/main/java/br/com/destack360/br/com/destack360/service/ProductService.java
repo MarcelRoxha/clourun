@@ -6,7 +6,7 @@ import com.google.cloud.firestore.DocumentReference;
 import com.google.cloud.firestore.DocumentSnapshot;
 import com.google.cloud.firestore.Firestore;
 import com.google.cloud.firestore.WriteResult;
-import com.google.firebase.cloud.FirestoreClient;
+import com.google.cloud.firestore.v1beta1.FirestoreClient;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -19,6 +19,7 @@ public class ProductService {
 
     private static final String COLLECTIO_NAME ="products";
 
+/*
 
     public String saveProduct(Product product) throws ExecutionException, InterruptedException {
         Firestore dbFirestore = FirestoreClient.getFirestore();
@@ -75,5 +76,6 @@ public class ProductService {
       }
       return productList;
     }
+*/
 
 }
