@@ -1,4 +1,4 @@
-package br.com.destack360.version6.Destack360.version6;
+package br.com.destack360.br.com.destack360;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

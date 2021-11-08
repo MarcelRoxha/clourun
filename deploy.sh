@@ -1,1 +1,0 @@
-gcloud config configurations activate destack360
